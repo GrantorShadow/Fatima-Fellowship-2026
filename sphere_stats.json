@@ -1,0 +1,120 @@
+{
+  "model_id": "Qwen/Qwen3.5-4B-Base",
+  "dataset": "wei2912/SPHERE-VLM",
+  "total_samples": 93,
+  "correct": 60,
+  "accuracy_pct": 64.52,
+  "per_config": {
+    "counting_only-paired-distance_and_counting": {
+      "total": 3,
+      "correct": 3,
+      "accuracy": 100.0
+    },
+    "counting_only-paired-position_and_counting": {
+      "total": 3,
+      "correct": 3,
+      "accuracy": 100.0
+    },
+    "distance_only": {
+      "total": 7,
+      "correct": 5,
+      "accuracy": 71.4
+    },
+    "position_only": {
+      "total": 13,
+      "correct": 9,
+      "accuracy": 69.2
+    },
+    "size_only": {
+      "total": 7,
+      "correct": 6,
+      "accuracy": 85.7
+    },
+    "distance_and_counting": {
+      "total": 5,
+      "correct": 4,
+      "accuracy": 80.0
+    },
+    "distance_and_size": {
+      "total": 7,
+      "correct": 3,
+      "accuracy": 42.9
+    },
+    "position_and_counting": {
+      "total": 6,
+      "correct": 5,
+      "accuracy": 83.3
+    },
+    "object_manipulation": {
+      "total": 14,
+      "correct": 6,
+      "accuracy": 42.9
+    },
+    "object_manipulation_w_intermediate": {
+      "total": 7,
+      "correct": 4,
+      "accuracy": 57.1
+    },
+    "object_occlusion": {
+      "total": 14,
+      "correct": 6,
+      "accuracy": 42.9
+    },
+    "object_occlusion_w_intermediate": {
+      "total": 7,
+      "correct": 6,
+      "accuracy": 85.7
+    }
+  },
+  "per_group": {
+    "single_skill": {
+      "total": 33,
+      "correct": 26,
+      "accuracy": 78.8
+    },
+    "combine_2_skill": {
+      "total": 18,
+      "correct": 12,
+      "accuracy": 66.7
+    },
+    "reasoning": {
+      "total": 42,
+      "correct": 22,
+      "accuracy": 52.4
+    }
+  },
+  "per_viewpoint": {
+    "allo": {
+      "total": 79,
+      "correct": 55,
+      "accuracy": 69.6
+    },
+    "ego": {
+      "total": 14,
+      "correct": 5,
+      "accuracy": 35.7
+    }
+  },
+  "per_format": {
+    "num": {
+      "total": 17,
+      "correct": 15,
+      "accuracy": 88.2
+    },
+    "name": {
+      "total": 8,
+      "correct": 5,
+      "accuracy": 62.5
+    },
+    "pos": {
+      "total": 26,
+      "correct": 15,
+      "accuracy": 57.7
+    },
+    "bool": {
+      "total": 42,
+      "correct": 25,
+      "accuracy": 59.5
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "model_id": "Qwen/Qwen3.5-4B-Base",
+  "dataset": "Lin-Chen/MMStar",
+  "total_samples": 100,
+  "img_first_accuracy": 50.0,
+  "txt_first_accuracy": 38.0,
+  "accuracy_delta": 12.0,
+  "both_correct": 31,
+  "both_wrong": 43,
+  "flipped_correctness": 26,
+  "prediction_changed": 33,
+  "flip_rate_pct": 26.0,
+  "pred_change_rate_pct": 33.0,
+  "per_category": {
+    "coarse perception": {
+      "total": 100,
+      "img_first_acc": 50.0,
+      "txt_first_acc": 38.0,
+      "flip_rate": 26.0,
+      "pred_change_rate": 33.0
+    }
+  },
+  "per_l2_category": {
+    "image scene and topic": {
+      "total": 82,
+      "img_first_acc": 47.6,
+      "txt_first_acc": 35.4,
+      "flip_rate": 26.8,
+      "pred_change_rate": 35.4
+    },
+    "image emotion": {
+      "total": 10,
+      "img_first_acc": 60.0,
+      "txt_first_acc": 40.0,
+      "flip_rate": 20.0,
+      "pred_change_rate": 20.0
+    },
+    "image style & quality": {
+      "total": 8,
+      "img_first_acc": 62.5,
+      "txt_first_acc": 62.5,
+      "flip_rate": 25.0,
+      "pred_change_rate": 25.0
+    }
+  }
+}

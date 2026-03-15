@@ -1,0 +1,31 @@
+{
+  "model_id": "Qwen/Qwen3.5-4B-Base",
+  "dataset": "Lin-Chen/MMStar",
+  "total_samples": 100,
+  "correct": 50,
+  "accuracy_pct": 50.0,
+  "per_category": {
+    "coarse perception": {
+      "total": 100,
+      "correct": 50,
+      "accuracy": 50.0
+    }
+  },
+  "per_l2_category": {
+    "image scene and topic": {
+      "total": 82,
+      "correct": 39,
+      "accuracy": 47.6
+    },
+    "image emotion": {
+      "total": 10,
+      "correct": 6,
+      "accuracy": 60.0
+    },
+    "image style & quality": {
+      "total": 8,
+      "correct": 5,
+      "accuracy": 62.5
+    }
+  }
+}

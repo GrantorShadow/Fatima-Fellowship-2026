@@ -1,0 +1,14 @@
+{
+  "model_id": "Qwen/Qwen3.5-4B-Base",
+  "dataset": "XAI/vlmsareblind",
+  "total_samples": 100,
+  "correct": 44,
+  "accuracy_pct": 44.0,
+  "per_task": {
+    "Subway Connections": {
+      "total": 100,
+      "correct": 44,
+      "accuracy": 44.0
+    }
+  }
+}
