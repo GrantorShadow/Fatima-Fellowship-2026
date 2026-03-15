@@ -2,7 +2,7 @@
 
 Systematic evaluation of [`Qwen/Qwen3.5-4B-Base`](https://huggingface.co/Qwen/Qwen3.5-4B-Base)
 to identify failure modes (blind spots) across 8 evaluation phases, documented
-as a Hugging Face dataset. See [`plan.md`](plan.md) for the full evaluation plan.
+as a Hugging Face dataset. 
 
 ## Model Under Test
 
